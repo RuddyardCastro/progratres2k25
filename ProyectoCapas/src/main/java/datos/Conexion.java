@@ -1,9 +1,12 @@
     package datos;
 
 import java.sql.*;
-
+ 
 public class Conexion {
+    // *indica que se dirije a la local host de la base de datos instalada  ip local 
+    //*SSL usa una capa de seguridad que permite la encriptacion secure socket libery 
     private static final String JDBC_URL = "jdbc:mysql://localhost/didactica?useSSL=false&serverTimezone=UTC";
+    //Crea un usuario 
     private static final String JDBC_USER = "usuprueba";
     private static final String JDBC_PASS = "123456";
    
